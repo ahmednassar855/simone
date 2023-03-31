@@ -1,0 +1,373 @@
+@media only screen and (min-width:  992px){
+    /* section2 */
+    .section2 .background h2{
+        font-size: 7rem;
+    }
+    .section2 .layer h3{
+        font-size: 1.8rem;
+    }
+
+    .section2 .layer{
+     top: 0%;
+       }       
+
+    .section2 .layer h3::after{
+        width: 80px;
+        transform: translateX(-200%);
+    }
+
+}
+
+
+
+/* Large devices (laptops/desktops,  max 992px) */
+@media only screen and (max-width: 992px){
+    /* section1 */
+    .section1 .home{
+        font-size: large;
+    }
+    .section1 h1{
+        font-size: 3rem;
+    }
+
+    .navBar .links ul{
+        display: none;
+    }
+
+    .navBar i{
+        margin-right: 0.4rem;
+    }
+    .navBar .dash{
+        display: block;
+        margin-right: 1rem;
+    }
+
+    .navBar .links{
+        width: 60%;
+    }
+
+    /* section2 */
+    .section2 .background h2{
+        font-size: 6rem;
+    }
+    .section2 .layer h3{
+        font-size: 1.5rem;
+    }
+    .section2 .layer{
+        top: -2%;
+       }       
+    .section2 .layer h3::after{
+        width: 80px;
+        transform: translateX(-150%);
+    }
+
+    .section2 .content{
+       flex-direction: column;
+       text-align: center;
+    }
+
+    .section2 .details{
+        width: 100%;
+        text-align: center;
+    }
+    .section2 .table{
+        width: 100%;
+        text-align: initial;
+    }
+
+    /* section 4 */
+
+    .section4 .background h2{
+        font-size: 6rem;
+    }
+
+    .section4 .layer{
+        top:-1%;
+    }
+    .section4 .layer h3::after{
+        width: 50px;
+        transform: translateX(-200%);
+    }
+
+     /* section 5 */
+     .section5 .background h2{
+        font-size:  6rem;
+    }
+
+    .section5 .layer{
+        top:-2%;
+    }
+    .section5 .layer h3::after{
+        width: 50px;
+        transform: translateX(-200%);   
+    }
+
+    .section5 .list ul{
+        width: 35%;
+    }
+
+     /* section 6 */
+
+    .section6 .background h2{
+        font-size: 6rem;
+    }
+
+    .section6 .layer{
+        top:-2%;
+        font-size: 1.4rem;
+    }
+    .section6 .layer h3::after{
+        width: 50px;
+        transform: translateX(-220%);   
+    }
+    .section6 .content{
+        flex-direction: column;
+        width: 80%;
+    }
+    .section6 .content .cont1{
+        width: 100%;
+        margin-top: 10px;
+    }
+    /* section 7 */
+    
+    .section7 .background h2{
+        font-size: 6rem;
+    }
+
+    .section7 .layer{
+        top:-2%;
+        font-size: 1.4rem;
+    }
+    .section7 .layer h3::after{
+        width: 50px;
+        transform: translateX(-220%);   
+    }
+
+    .section7 .contact{
+        width: 80%;
+    }
+
+    .contact .address{
+        width: 40%;
+    }
+    .contact .form{
+        width:60%
+    }
+
+}
+
+/* Medium devices (landscape tablets,  max 768px) */
+@media only screen and (max-width: 768px) {
+
+    /* section2 */
+    .section2 .background h2{
+        font-size: 4.5rem;
+    }
+    .section2 .layer h3{
+        font-size: 1.2rem;
+    }
+    .section2 .layer{
+        top: -4%;
+    }       
+    .section2 .layer h3::after{
+        width: 50px;
+        transform: translateX(-190%);
+    }
+
+    .section2 .content2{
+        flex-wrap: wrap;
+        text-align: center;
+
+    }
+
+    .section2 .content2 div{
+        width: 50%;
+    }
+    /* section 3 */
+
+    
+    .section3 .background h2{
+        font-size: 6rem;
+    }
+
+    .section3 .layer{
+    top:-2%;
+    }
+
+
+
+    .section3 .layer h3::after{
+        width: 100px;
+        transform: translateX(-150px);
+    }
+
+    .section3 .content{
+        flex-direction: column;
+    }
+
+    .section3 .content .cont1{
+        width: fit-content;
+    }
+
+    /* section 4 */
+    .section4 .background h2{
+        font-size: 4rem;
+    }
+
+    .section4 .layer{
+        top:-2%;
+        font-size: 1.4rem;
+    }
+    .section4 .layer h3::after{
+        width: 50px;
+        transform: translateX(-150%);
+    }
+
+    .section4 .content{
+        flex-direction: column;
+    }
+
+    /* section 5 */
+    .section5 .background h2{
+        font-size:  4rem;
+    }
+
+    .section5 .layer{
+        top:-3%;
+        font-size: 1.4rem;
+    }
+    .section5 .layer h3::after{
+        width: 50px;
+        transform: translateX(-150%);   
+    }
+    .section5 .list ul{
+        width: 45%;
+    }
+
+    .section5 .portfolio{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .section5 .portfolio .two .proj1 {
+        margin-top: -42%;
+      }
+    .section5 .portfolio .proj1{
+        width: 50%;
+    }
+    .section5 .portfolio .one{
+        flex-direction: row;
+    }
+    .section5 .portfolio .two{
+        flex-direction: row;
+    }
+    
+    .section5 .portfolio .three{
+        flex-direction: row;
+    }
+    /* section 6 */
+
+    .section6 .background h2{
+        font-size: 4rem;
+    }
+
+    .section6 .layer{
+        top:-5%;
+        font-size: 1.4rem;
+    }
+    .section6 .layer h3::after{
+        width: 50px;
+        transform: translateX(-250%);   
+    }
+
+     /* section 7 */
+    
+     .section7 .background h2{
+        font-size: 4rem;
+    }
+
+    .section7 .layer{
+        top:-5%;
+        font-size: 1.4rem;
+    }
+    .section7 .layer h3::after{
+        width: 50px;
+        transform: translateX(-250%);   
+    }
+
+    .section7 .contact{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .section7 .contact .form{
+        order: 1;
+        width: 80%;
+    }
+
+    .section7 .contact .address{
+        order: 2;
+        width: 100%;
+        text-align: center;
+    }
+    .contact .address{
+        width: 100% ;
+    }
+
+    .section7 .contact i{
+        margin-top: 1rem;
+    }
+    .footer{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+}
+
+
+/* Small devices (landscape tablets,  max 600px ) */
+@media only screen and (max-width: 620px){
+
+    /* section1 */
+    .section1 .navBar{
+        justify-content: space-evenly;
+    }
+
+    .navBar .links{
+        width: fit-content;
+    }
+
+    /* section 2 */
+    .section2 .layer{
+        top: -3%;    
+    }   
+    
+    
+    /* section 3 */
+    .section3 .background h2{
+        font-size: 4rem;
+    }
+    .section3 .layer{
+    top:-2.5%;
+    font-size: 1.2rem;
+    
+    }
+    .section3 .layer h3::after{
+        width: 50px;
+        transform: translateX(-150%);
+    }
+
+    .section5 .list ul{
+        width: 55%;
+    }
+
+   
+    
+
+
+}
